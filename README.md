@@ -1,10 +1,16 @@
 # Quadratic Equations Solver
 
-[TODO. There will be project description]
+Get roots (tuple with two elements) from quadratic equation.
 
 # How to Use
 
-[TODO]
+>>> from quadratic_equation import get_roots
+>>> get_roots(1, -2, 1)
+(1.0, None)
+>>> get_roots(1, 2, -3)
+(-3.0, 1.0)
+>>> get_roots(1, 2, 3)
+(None, None)
 
 # How to Launch Tests
 
